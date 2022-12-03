@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    height: 500px;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    flex-wrap: wrap;
+
+}
+.square{
+    width: 20px;
+    height: 20px;
+    background:   #1d1d1d;
+    margin: 2px;
+    transition: 1s ease;
+    box-shadow: 0 0 2px #000;
+
+}
+.square:hover{
+    transition-duration:0s ;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btn-click{
+    padding: 10px 20px;
+    background-color: aqua;
+    font-size: 20px;
+}
+.remove-click{
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 20px;
+}
+.remove-click:hover{
+    margin: 10px;
+}
